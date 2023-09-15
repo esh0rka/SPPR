@@ -14,11 +14,17 @@
   <ItemGroup>
     <None Remove="Controllers\" />
     <None Remove="Views\Home\" />
+    <None Remove="Components\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\Cart\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Views\Home\" />
     <Folder Include="wwwroot\images\" />
+    <Folder Include="Components\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\Cart\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\images\" />
