@@ -1,0 +1,12 @@
+/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.Domain/bin/Debug/net7.0/WEB_153504_Gaikevich.Domain.deps.json
+/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.Domain/bin/Debug/net7.0/WEB_153504_Gaikevich.Domain.dll
+/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.Domain/bin/Debug/net7.0/WEB_153504_Gaikevich.Domain.pdb
+/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.Domain/obj/Debug/net7.0/WEB_153504_Gaikevich.Domain.csproj.AssemblyReference.cache
+/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.Domain/obj/Debug/net7.0/WEB_153504_Gaikevich.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.Domain/obj/Debug/net7.0/WEB_153504_Gaikevich.Domain.AssemblyInfoInputs.cache
+/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.Domain/obj/Debug/net7.0/WEB_153504_Gaikevich.Domain.AssemblyInfo.cs
+/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.Domain/obj/Debug/net7.0/WEB_153504_Gaikevich.Domain.csproj.CoreCompileInputs.cache
+/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.Domain/obj/Debug/net7.0/WEB_153504_Gaikevich.Domain.dll
+/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.Domain/obj/Debug/net7.0/refint/WEB_153504_Gaikevich.Domain.dll
+/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.Domain/obj/Debug/net7.0/WEB_153504_Gaikevich.Domain.pdb
+/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.Domain/obj/Debug/net7.0/ref/WEB_153504_Gaikevich.Domain.dll
