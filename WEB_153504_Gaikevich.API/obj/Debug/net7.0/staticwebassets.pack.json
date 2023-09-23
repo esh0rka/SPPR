@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.API/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.API/wwwroot/Images/.DS_Store",
+      "PackagePath": "staticwebassets/Images/.DS_Store"
+    },
+    {
+      "Id": "/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.API/wwwroot/Images/Catalog/akum1.webp",
+      "PackagePath": "staticwebassets/Images/Catalog/akum1.webp"
+    },
+    {
+      "Id": "/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.API/wwwroot/Images/Catalog/akum2.png",
+      "PackagePath": "staticwebassets/Images/Catalog/akum2.png"
+    },
+    {
+      "Id": "/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.API/wwwroot/Images/Catalog/akum3.jpg",
+      "PackagePath": "staticwebassets/Images/Catalog/akum3.jpg"
+    },
+    {
+      "Id": "/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.API/wwwroot/Images/Catalog/amort.jpg",
+      "PackagePath": "staticwebassets/Images/Catalog/amort.jpg"
+    },
+    {
+      "Id": "/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.API/wwwroot/Images/Catalog/bokovoe.jpg",
+      "PackagePath": "staticwebassets/Images/Catalog/bokovoe.jpg"
+    },
+    {
+      "Id": "/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.API/wwwroot/Images/Catalog/dver-zadnyaya-vaz.jpg",
+      "PackagePath": "staticwebassets/Images/Catalog/dver-zadnyaya-vaz.jpg"
+    },
+    {
+      "Id": "/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.API/wwwroot/Images/Catalog/filtr-toplivnyj.webp",
+      "PackagePath": "staticwebassets/Images/Catalog/filtr-toplivnyj.webp"
+    },
+    {
+      "Id": "/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.API/wwwroot/Images/Catalog/lite.jpg",
+      "PackagePath": "staticwebassets/Images/Catalog/lite.jpg"
+    },
+    {
+      "Id": "/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.API/wwwroot/Images/Catalog/lobovoe.png",
+      "PackagePath": "staticwebassets/Images/Catalog/lobovoe.png"
+    },
+    {
+      "Id": "/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.API/wwwroot/Images/Catalog/nasos-top.jpg",
+      "PackagePath": "staticwebassets/Images/Catalog/nasos-top.jpg"
+    },
+    {
+      "Id": "/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.API/wwwroot/Images/Catalog/podramnik.jpg",
+      "PackagePath": "staticwebassets/Images/Catalog/podramnik.jpg"
+    },
+    {
+      "Id": "/Users/egorgajkevic/Documents/Projects/SPPR/WEB_153504_Gaikevich.API/wwwroot/Images/Catalog/tigar-winter-1.jpg",
+      "PackagePath": "staticwebassets/Images/Catalog/tigar-winter-1.jpg"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.WEB_153504_Gaikevich.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.WEB_153504_Gaikevich.API.props",
+      "PackagePath": "build\\WEB_153504_Gaikevich.API.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.WEB_153504_Gaikevich.API.props",
+      "PackagePath": "buildMultiTargeting\\WEB_153504_Gaikevich.API.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.WEB_153504_Gaikevich.API.props",
+      "PackagePath": "buildTransitive\\WEB_153504_Gaikevich.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

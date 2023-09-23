@@ -26,9 +26,12 @@
                         @ViewData["Category"]
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        @foreach (var item in (List<Category>)ViewData["Categories"])
-                        {
-                            <li><a asp-action="Index" asp-controller="Product" asp-route-category="@item.NormalizedName" class="dropdown-item">@item.Name</a></li>
+                        @{ var category_list = (List<Category>?)ViewData["Categories"];
+                           if (category_list != null)
+                           @foreach (var item in category_list)
+                           {
+                               <li><a asp-action="Index" asp-controller="Product" asp-route-category="@item.NormalizedName" class="dropdown-item">@item.Name</a></li>
+                           }
                         }
                     </ul>
                 </div>
@@ -62,20 +65,32 @@
         <div class="d-flex align-items-center">
             <nav aria-label="..." class="d-flex justify-content-center align-items-center">
                 <ul class="pagination">
-                    <li class="page-item @if (Model.CurrentPage == 1) {<text>disabled</text>}">
-                        <a class="page-link" asp-action="Index" asp-controller="Product" asp-route-pageno=@nav2>Previous</a>
+                    <li class="page-item @(Model.CurrentPage == 1 ? "disabled" : "")">
+                        <a class="page-link" asp-action="Index" asp-controller="Product" asp-route-pageno=@nav2>
+                            Previous
+                        </a>
                     </li>
-                    <li class="page-item @if (Model.CurrentPage == 1) {<text>active</text>}">
-                    <a class="page-link" asp-action="Index" asp-controller="Product" asp-route-pageno=@nav2>
-                        @nav2.ToString()
-                    </a>
+                    <li class="page-item @(Model.CurrentPage == 1 ? "active" : "")">
+                        <a class="page-link" asp-action="Index" asp-controller="Product" asp-route-pageno=@nav2>
+                            @nav2.ToString()
+                        </a>
                     </li>
-                    <li class="page-item @if (Model.CurrentPage != 1) {<text>active</text>} @if (Model.CurrentPage == Model.TotalPages && Model.CurrentPage == 1) {<text>disabled</text>}" aria-current="page">
-                        <a class="page-link" asp-action="Index" asp-controller="Product" asp-route-pageno=@nav3>@nav3.ToString()</a>
+                    <li class="page-item @(Model.CurrentPage != 1 ? "active" : "")
+                        @(Model.CurrentPage == Model.TotalPages && Model.CurrentPage == 1 ? "disabled" : "")"
+                        @(Model.CurrentPage == Model.TotalPages && Model.TotalPages == 1 ? "hidden" : "") aria-current="page">
+                        <a class="page-link" asp-action="Index" asp-controller="Product" asp-route-pageno=@nav3>
+                            @nav3.ToString()
+                        </a>
                     </li>
-                    <li class="page-item " @(Model.CurrentPage == Model.TotalPages ?"hidden":"")><a class="page-link" asp-action="Index" asp-controller="Product" asp-route-pageno=@nav4>@nav4.ToString()</a></li>
-                    <li class="page-item" @if (Model.CurrentPage == Model.TotalPages) {<text>hidden</text>}>
-                        <a class="page-link" asp-action="Index" asp-controller="Product" asp-route-pageno=@nav4>Next</a>
+                    <li class="page-item" @(Model.CurrentPage == Model.TotalPages ? "hidden" : "")>
+                        <a class="page-link" asp-action="Index" asp-controller="Product" asp-route-pageno=@nav4>
+                            @nav4.ToString()
+                        </a>
+                    </li>
+                    <li class="page-item" @(Model.CurrentPage == Model.TotalPages ? "hidden" : "")>
+                        <a class="page-link" asp-action="Index" asp-controller="Product" asp-route-pageno=@(Model.CurrentPage + 1)>
+                            Next
+                        </a>
                     </li>
                 </ul>
             </nav>

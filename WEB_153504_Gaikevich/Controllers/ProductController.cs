@@ -15,9 +15,9 @@ namespace WEB_153504_Gaikevich.Controllers
         IAutoPartService _autoPartService;
         ICategoryService _categoryService;
 
-        public ProductController(IAutoPartService autoParttService, ICategoryService categoryService)
+        public ProductController(IAutoPartService autoPartService, ICategoryService categoryService)
         {
-            _autoPartService = autoParttService;
+            _autoPartService = autoPartService;
             _categoryService = categoryService;
         }
 
